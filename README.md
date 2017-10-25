@@ -1,46 +1,52 @@
-# Form Designer with jQuery
-## Business Requirements:
+# Develop a Form Designer with jQuery
+## Business Requirement:
 You need to write a form designer, which has these features:
-* Add a field
-* Select field type
+* Select field type and add a field
 * Remove field
 * Preview
 
-### Add a field
-There should have an 'Add' button on the page when you click on it, it pops a dialog up for choosing field type. After you chose a field type, the dialog dismissed and a new field with the type you choose added in the form.
+### Select field type and add a field
+There should have an 'Add' button on the page. When you click on it, it will pop up a dialog for choosing the field type.
 
-### Select field type
-In the 'Choose Type' dialog, there are two types of field, they are text and date, you can choose your favorite type and click 'Submit' button to confirm it, or click 'Cancel' to cancel it.
+![](./mockups/1.jpg)
+
+In the 'Choose Type' dialog, there are two types of field: Text and Date. You can choose your favarite type and click 'Add' button to add it on the design form or click 'Close' to close this dialog.
+
+![](./mockups/2.jpg)
+
+After you add a field type, the dialog will keep opening so that you can continue to choose and add more fields to the form.
 
 ### Remove field
-There should have a 'Remove' button on the right of each field when you click it, the field got removed.
+There should have a 'Remove' button on the right of each field. When you click it, the field will be removed from the form.
 
 ### Preview
-There should have a 'Preview' button on the page, click it, it changes to 'Edit' so we can toggle modes between editor and previewer. In the previewer mode, you can neither add a new field nor remove a field.
+There should have a 'Preview' button on the page. When you click it, the button caption will change to 'Edit' so we can toggle between edit mode and preview mode. In the preview mode, you can either add a new field or remove a field.
+
+![](./mockups/3.jpg)
 
 ## Practice Challenges:
-* Using basic selectors such as id and class name selector
-* Using attribute selector
-* Understanding and using the event mechanism
-* Understanding and using method chaining
-* Using jQuery UI dialog widget to select field type
+* Use basic selectors such as id and class name selector
+* Use attribute selector
+* Understand and use the event mechanism
+* Understand and use method chaining
+* Use jQuery UI dialog widget for field type selection
 
 ## Practice Requirements:
-* Forbidden to use DOM APIs such as `document.getElementById()`
-* Split tasks in appropriate size and commit code after completing each task
-* Commit frequently with readable commit messages
+* DON'T use DOM APIs such as `document.getElementById()`
+* Do tasking and break tasks in appropriate small units and commit code after completing each task
+* Commit frequently with readable comment
 * Coding with shortcuts
 
 ## Practice Output:
-Include HTML and JavaScript, CSS is optional.
+HTML and JavaScript (CSS is optional).
 
-## Environment Require:
+## Environment:
 * HTML 5
 * JavaScript ES6
 * jQuery 3.2.1
 * jQuery UI 1.12.1
 
-## How to begin:
+## How to Begin:
 Open your terminal, change into any path and clone this repository:
 ```
 git clone repo_of_this_template
