@@ -20,7 +20,10 @@
 点击”编辑“按钮，返回编辑模式，显示”添加“和”删除“按钮。
 
 ## 挑战
-* 用 jQuery 选择器操作页面元素
+* 使用 jQuery 基本选择器
+* 使用 jQuery 属性选择器
+* 理解 jQuery 事件机制
+* 理解并使用链式调用机制
 * 用 jQuery UI 对话框选择字段类型
 
 ## 要求
@@ -48,7 +51,7 @@ git clone repo_of_this_template
 npm install
 ```
 
-用任意编辑器打开clone下来的文件夹，在`src/js/main.js`中编写JavaScript代码，在`src/main.html`中编写HTML代码。完成功能后后，使用以下命令设置github远程仓库地址 (my_url代表你自己的新的github地址)
+用任意编辑器打开clone下来的文件夹，在`src/js/main.js`中编写JavaScript代码，在`src/main.html`中编写HTML代码。完成功能后，使用以下命令设置github远程仓库地址 (my_url代表你自己的新的github地址)
 ```
  git remote set-url origin my_url
 ```
